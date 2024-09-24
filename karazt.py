@@ -826,3 +826,6 @@ elif page == 'Appartement type T3 et plus':
 
         # Afficher le R2 ajusté dans un carré avec une taille de police plus grande et un léger relief
         st.markdown(f'<div style="{square_style} {font_style}">R2 ajusté : {r2_adj:.2f}</div>', unsafe_allow_html=True)
+
+pip install pipreqs
+pipreqs --encoding=utf8
